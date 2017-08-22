@@ -18,11 +18,11 @@ public class JanelaOperacoes extends JFrame {
     private final JLabel etiqueta4;
     private final JTextField texto;
     private final JTextField texto2;
-    private final JButton btnSoma = new JButton("Aperte para fazer a soma");
-    private final JButton btnDivisao = new JButton("Aperte para fazer a divisao");
-    private final JButton btnSubtracao = new JButton("Aperte para fazer a subtração");
-    private final JButton btnMulti = new JButton("Aperte para fazer a multiplicação.");
-    private final JButton btnResultado = new JButton("Aperte para o resultado");
+    private final JButton btnSoma = new JButton("Click para efetuar a soma");
+    private final JButton btnDivisao = new JButton("Click para efetuar a divisao");
+    private final JButton btnSubtracao = new JButton("Click para efetuar a subtração");
+    private final JButton btnMulti = new JButton("Click para efetuar a multiplicação.");
+    private final JButton btnResultado = new JButton("Click para ver o resultado");
     private double valor1;
     private double valor2;
 
@@ -30,12 +30,12 @@ public class JanelaOperacoes extends JFrame {
         super("Calculadora");
         setLayout(new FlowLayout(FlowLayout.CENTER));
 
-        etiqueta1 = new JLabel("Primeiro número: ");
+        etiqueta1 = new JLabel("Primeiro valor: ");
         texto = new JTextField(10);
         add(etiqueta1);
         add(texto);
 
-        etiqueta2 = new JLabel("Segundo número: ");
+        etiqueta2 = new JLabel("Segundo valor: ");
         texto2 = new JTextField(10);
         add(etiqueta2);
         add(texto2);
