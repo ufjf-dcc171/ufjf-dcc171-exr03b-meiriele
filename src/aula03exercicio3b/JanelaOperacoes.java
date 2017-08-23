@@ -33,7 +33,7 @@ public class JanelaOperacoes extends JFrame {
         etiqueta1 = new JLabel("Primeiro valor: ");
         texto = new JTextField(10);
         add(etiqueta1);
-        add(texto);
+        add(texto); 
 
         etiqueta2 = new JLabel("Segundo valor: ");
         texto2 = new JTextField(10);
